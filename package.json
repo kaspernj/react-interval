@@ -1,0 +1,33 @@
+{
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties"
+    ]
+  },
+  "name": "@kaspernj/react-interval",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaspernj/react-interval.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaspernj/api-maker/issues"
+  },
+  "homepage": "https://github.com/kaspernj/react-interval",
+  "peerDependencies": {
+    "prop-types": "^15.7.2",
+    "prop-types-exact": "^1.2.0",
+    "react": "^16.13.1"
+  }
+}
